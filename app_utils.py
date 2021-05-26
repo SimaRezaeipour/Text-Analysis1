@@ -1,7 +1,7 @@
 
 import spacy 
 from spacy import displacy
-nlp = spacy.load("en_core_web_sm")
+nlp = spacy.load("en")
 from textblob import TextBlob 
 import pandas as pd 
 from collections import Counter
